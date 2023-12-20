@@ -202,11 +202,11 @@ onAuthStateChanged(auth, (user) => {
   const { href } = window.location;
   console.log(href);
   if (user) {
-    if (href === 'http://localhost:5500/index.html') window.location.href = '/antigolput.html';
+    if (href === 'https://anti-golput.vercel.app/index.html') window.location.href = '/antigolput.html';
   } else {
     // User is signed out
     // ...
-    if (href === 'http://localhost:5500/antigolput.html') window.location.href = "/index.html";
+    if (href === 'https://anti-golput.vercel.app/antigolput.html') window.location.href = "/index.html";
   }
   window.addEventListener('beforeunload', () => {
     auth.signOut();
