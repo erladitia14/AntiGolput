@@ -207,7 +207,7 @@ onAuthStateChanged(auth, (user) => {
     }
   } else {
     if (href === 'https://anti-golput.vercel.app/antigolput.html') {
-      window.location.href = "/index.html";
+      window.location.href = "/";
     }
   }
   window.addEventListener('beforeunload', () => {
