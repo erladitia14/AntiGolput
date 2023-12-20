@@ -198,19 +198,17 @@ document.getElementById('login').addEventListener('click', () => {
   });
 });
 
+// Membatasi akses ke file lain sebelum login
 onAuthStateChanged(auth, (user) => {
-  const { href } = window.location;
-  console.log(href);
+  const { pathname } = window.location;
+  console.log(pathname);
   if (user) {
-    if (href === 'https://anti-golput.vercel.app' || href === 'https://anti-golput.vercel.app/index.html') {
-      window.location.href = '/antigolput.html';
-    }
+    if (pathname === '/index.html') window.location.pathname = '/antigolput.html';
   } else {
-    if (href === 'https://anti-golput.vercel.app/antigolput.html') {
-      window.location.href = "/";
-    }
+    // User is signed out
+    if (pathname === '/antigolput.html') window.location.pathname = '/index.html';
   }
-  window.addEventListener('beforeunload', () => {
+  window.addEventListener('unload', () => {
     auth.signOut();
   });
 });
