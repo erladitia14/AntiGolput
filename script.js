@@ -206,9 +206,8 @@ onAuthStateChanged(auth, (user) => {
       window.location.href = '/antigolput.html';
     }
   } else {
-    // User is signed out
     if (href === 'https://anti-golput.vercel.app/antigolput.html') {
-      window.location.href = "/";
+      window.location.href = "/index.html";
     }
   }
   window.addEventListener('beforeunload', () => {
