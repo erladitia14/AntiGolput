@@ -202,11 +202,14 @@ onAuthStateChanged(auth, (user) => {
   const { href } = window.location;
   console.log(href);
   if (user) {
-    if (href === 'https://anti-golput.vercel.app' || href === 'https://anti-golput.vercel.app/index.html') window.location.href = '/antigolput.html';
+    if (href === 'https://anti-golput.vercel.app' || href === 'https://anti-golput.vercel.app/index.html') {
+      window.location.href = '/antigolput.html';
+    }
   } else {
     // User is signed out
-    // ...
-    if (href === 'https://anti-golput.vercel.app/antigolput.html') window.location.href = "/";
+    if (href === 'https://anti-golput.vercel.app/antigolput.html') {
+      window.location.href = "/";
+    }
   }
   window.addEventListener('beforeunload', () => {
     auth.signOut();
