@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="dul.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.0.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>AntiGolput</title>
+</head>
+<body>
+        <!-- FOOTER START -->
+        <footer class="flex items-center justify-between py-2 px-6 w-full mx-auto fixed bg-white z-50" id="header">
+                <div class="flex items-center ml-10">
+			<a href="https://cekdptonline.kpu.go.id/"><button class="shadow__btn">
+				Cek DPT
+			</button></a>
+                </div>
+                <nav class="flex items-center mr-5">
+			<button class="btn-nav"><a href="#Home">Home</a></button>
+			<button class="btn-nav"><a href="#Profile">Profiles</a></button>
+			<button class="btn-nav"><a href="#Kandidat">Candidate</a></button>
+			<button class="btn-nav"><a href="#Contact">Contact</a></button>
+                </nav>
+        </footer>
+        <!-- FOOTER END -->
+
+        <!-- LANDING START -->
+        <section class="w-full pt-[50px] bg-[#161B44] pb-10" id="Home">
+          <div class="flex justify-center mb-3">
+            <div class="w-1/2">
+              <img id="image" class="w-[270px] mt-[25px] ml-[300px]" src="./img/Voting.png" alt="FOTO" class="w-full h-full object-cover">
+          </div>
+          <div class="w-1/2">
+            <h1 class="absolute text-[80px] text-white font-bold text-center typing typing-line"><br></h1>
+              <h1 class="text-6xl mb-4 mt-[120px] text-white">Suara Pemilu</h1>
+              <h1 class="text-5xl text-white">Adalah <span class="text-[#ebc17a] text-animation"></span></h1>
+          </div>
+        </div>
+          <div class="w-[50%] m-auto bg-slate-700 rounded-3xl p-10">
+          <h1 class="text-3xl font-bold text-center text-white opacity-80">Countdown Pemilu</h1>
+          <div class="flex justify-center my-3"><button class="bg-red-400 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full animate-pulse">
+		14 Februari 2024
+	      </button></div>
+          <div class="flex items-center justify-center">
+            <div class="grid grid-flow-col gap-10 text-center auto-cols-max">
+              <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl" id="days">
+                  <span></span>
+                </span>
+                Days
+              </div> 
+              <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl" id="hours">
+                  <span></span>
+                </span>
+                Hours
+              </div> 
+              <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl" id="minutes">
+                  <span></span>
+                </span>
+                Min
+              </div> 
+              <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl" id="seconds">
+                  <span></span>
+                </span>
+                Sec
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </section>
+        <!-- LANDING END -->
+        
+        <!-- PRROFILE START -->
+        <!-- div .wrapp -->
+	<section class="wrapp section-white">
+		<h1 class="text-[50px] text-center font-bold mt-[30px]" id="Profile">PROFILE PARTAI</h1>
+		<!-- main .main -->
+		<main class="main">
+			<!-- section .section -->
+			<section class="section gsap_slider">
+				<div class="content">
+					<div class="section__slider gsap_h">
+						<div class="gsap__bl">
+							<div class="gsap__inner">
+								<div class="gsap__track">
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/1.png" alt="PKB" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#1</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Kebangkitan Nasional</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/2.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#2</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Gerakan Indonesia Raya</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai2.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/3.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#3</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Demokrasi Indonesia Perjuangan</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai3.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/4.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#4</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Golongan Karya</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai4.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/5.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#5</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Nasional Demokrat</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai5.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/6.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#6</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Buruh</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai6.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/7.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#7</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Gelombang Rakyat Indonesia</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai7.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/8.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#8</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Keadilan Sejahtera</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai8.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/9.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#9</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Kebangkitan Nusantara</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai9.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/10.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#10</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Hati Nurani Rakyat</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai10.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/11.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#11</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Garda Perubahan Indonesia</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai11.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/12.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#12</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Amanat Nasional</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai12.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/13.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#13</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Bulan Bintang</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai13.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/14.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#14</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Demokrat</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai14.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/15.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#15</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Solidaritas Indonesia</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai15.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/16.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#16</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Persatuan Indonesia</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai16.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/17.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#17</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Pesatuan Pembangunan</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai17.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+									<div class="gsap__item">
+										<div class="card w-[455px] h-[100%] bg-base-100 shadow-xl image-full">
+											<figure><img src="./img/18.png" alt="GERINDRA" /></figure>
+											<div class="card-body">
+											  <h2 class="card-title mx-auto text-[50px] mb-[10px]">#18</h2>
+											  <p class="mx-center text-[25px] mt-[5px] text-center">Partai Ummat</p>
+											  <div class="card-actions justify-end">
+												<a href="./ProfilePartai/partai18.html" class="w-full"><button class="btn btn-block glass text-[20px] font-bold text-black">Lihat Selengkapnya</button></a>
+											  </div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</section>
+        <!-- PRROFILE END -->
+	<!-- KANDIDAT SECTION -->
+	<div id="Kandidat" class="sayid-judul">
+		<div class="sayid-row">
+		    <div class="sayid-col1">
+			<p class="sayid-p-col1">PROFIL KANDIDAT</p>
+		    </div>
+		    <div class="sayid-col2">
+			<h1 class="sayid-h1-col2">Calon Presiden & Calon Wakil Presiden 2024</h1>
+		    </div>
+		    <div class="sayid-col3">
+			<div class="sayid-col3-judul">
+			    <div class="sayid-col3-judul1">
+				<div style="display: contents;">
+				    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" style="user-select: none; width: 20px; height: 20px; display: inline-block; fill: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(0, 0, 0)); color: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); flex-shrink: 0;">
+					<g color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" weight="fill">
+					    <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm-4,48a12,12,0,1,1-12,12A12,12,0,0,1,124,72Zm12,112a16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40a8,8,0,0,1,0,16Z"></path>
+					</g>
+				    </svg>
+				</div>
+			    </div>
+			</div>
+			<div class="sayid-teks-dis">
+			    <div class="sayid-teks-dis1">
+				<div class="sayid-teks-dis2">
+				    <h3>Posisi kandidat diurutkan berdasarkan nomor urut KPU</h3>
+				</div>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	
+	
+	    <div class="sayid-content">
+		<div class="sayid-content1">
+		    <h3 class="sayid-h3-content">Pelajari ide & gagasan Para Kandidat</h3>
+		</div>
+		<div class="sayid-content2">
+		    <div class="sayid-capres1">
+			<div class="sayid-title-capres1">
+			    <div class="sayid-no-capres1">
+				<div class="sayid-n1">
+				    <p class="sayid-p-content1">NO. 1</p>
+				</div>
+			    </div>
+			    <div class="sayid-nama-visi1">
+				<div class="sayid-nv1">
+				    <div class="sayid-nama1">
+					<h3 class="sayid-h3-nama1">Anies & Cak Imin</h3>
+				    </div>
+				    <div class="sayid-visi1">
+					<p class="sayid-p-nama1">Indonesia Adil Makmur untuk Semua</p>
+				    </div>
+				</div>
+			    </div>
+			</div>
+			<div class="sayid-foto-capres1">
+			    <div class="sayid-anies">
+				<div class="sayid-anies1">
+				    <div class="sayid-anies2">
+					<div class="sayid-anies3">
+					    <div class="sayid-anies4">
+						<div class="sayid-nama-anies">
+						    <h3 class="sayid-nama-anies1">Anies Baswedan</h3>
+						</div>
+						<div class="sayid-cp1">
+						    <p class="sayid-cp1-anies">Calon Presiden</p>
+						</div>
+						<div class="sayid-from-cp1">
+						    <div class="sayid-from1-cp1">
+							<a class="sayid-a-from-cp1" href="">
+							    <div class="sayid-a-from1-cp1">
+								<div class="sayid-a-from2-cp1">
+								    <div class="sayid-a-from3-cp1">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)) /* {&quot;name&quot;:&quot;Text Extra Light&quot;} */" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)); color: var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)); flex-shrink: 0;">
+									    <g color="var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)) /* {&quot;name&quot;:&quot;Text Extra Light&quot;} */" weight="fill">
+										<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm-4,48a12,12,0,1,1-12,12A12,12,0,0,1,124,72Zm12,112a16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40a8,8,0,0,1,0,16Z"></path>
+									    </g>
+									</svg>
+								    </div>
+								</div>
+							    </div>
+							    <div class="sayid-p-from-cp1">
+								<p class="sayid-p1-from-cp1">Non Partai</p>
+							    </div>
+							</a>
+						    </div>
+						</div>
+					    </div>
+					    <div class="sayid-a-anies4">
+						<div class="sayid-a1-anies4" style="display: contents;">
+						    <a class="sayid-a2-anies4" href="">
+							<div class="sayid-anies4-a">
+							    <h3 class="sayid-anies4-h3">Pelajari Profil</h3>
+							</div>
+							<div class="sayid-anies4-a1">
+							    <div class="sayid-anies4-a1-svg">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(190, 30, 30)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); color: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); flex-shrink: 0;">
+								    <g color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" weight="bold">
+									<path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path>
+								    </g>
+								</svg>
+							    </div>
+							</div>
+						    </a>
+						</div>
+					    </div>
+					</div>  
+					<div class="sayid-foto-anies">
+					    <div class="sayid-foto-anies1">
+						<img class="sayid-img-anies" src="https://framerusercontent.com/images/EeXC5h6iOkyHcbWs7ui6Lcf3kNM.webp" alt="anies">
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			    <div class="sayid-imin">
+				<div class="sayid-imin1">
+				    <div class="sayid-imin2">
+					<div class="sayid-imin3">
+					    <div class="sayid-imin4">
+						<div class="sayid-nama-imin">
+						    <h3 class="sayid-nama-imin1">Muhaimin Iskandar</h3>
+						</div>
+						<div class="sayid-cwp1">
+						    <p class="sayid-cwp1-imin">Calon Wakil Presiden</p>
+						</div>
+						<div class="sayid-from-cwp1">
+						    <div class="sayid-from1-cwp1">
+							<a class="sayid-a-from-cwp1" href="">
+							    <div class="sayid-a-from1-cwp1">
+								<div class="sayid-a-from2-cwp1">
+								    <img class="sayid-img-from-cwp1" src="https://framerusercontent.com/images/CpnFpNERCoYxrQHPG2EOwRj14UQ.webp" alt="pkb">
+								</div>
+							    </div>
+							    <div class="sayid-p-from-cwp1">
+								<p class="sayid-p1-from-cwp1">PKB</p>
+							    </div>
+							</a>
+						    </div>
+						</div>
+					    </div>
+					    <div class="sayid-a-imin4">
+						<div class="sayid-a1-imin4" style="display: contents;">
+						    <a class="sayid-a2-imin4" href="">
+							<div class="sayid-imin4-a">
+							    <h3 class="sayid-imin4-h3">Pelajari Profil</h3>
+							</div>
+							<div class="sayid-imin4-a1">
+							    <div class="sayid-imin4-a1-svg">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(190, 30, 30)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); color: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); flex-shrink: 0;">
+								    <g color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" weight="bold">
+									<path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path>
+								    </g>
+								</svg>
+							    </div>
+							</div>
+						    </a>
+						</div>
+					    </div>
+					</div>
+					<div class="sayid-foto-imin">
+					    <div class="sayid-foto-imin1">
+						<img class="sayid-img-imin" src="https://framerusercontent.com/images/CAS8PIX2K6bHflQw4xJohFYwpYo.webp" alt="imin">
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+			<div class="sayid-koalisi-capres1">
+			    <div class="sayid-koalisi1-capres1">
+				<div class="sayid-p-koalisi-capres1">
+				    <p class="sayid-p1-koalisi-capres1">KOALISI PARTAI</p>
+				</div>
+				<div class="sayid-partai-koalisi-capres1">
+				    <div class="sayid-partai-koalisi1-capres1">
+					<div class="sayid-partai1-koalisi-capres1">
+					    <div class="sayid-partai1-koalisi1-capres1">
+						<a class="sayid-partai1-koalisi2-capres1" href="./ProfilePartai/partai1.html">
+						    <div class="sayid-partai1-koalisi3-capres1">
+							<div class="sayid-partai1-koalisi4-capres1">
+							    <img class="sayid-partai1-koalisi5-capres1" src="https://framerusercontent.com/images/CpnFpNERCoYxrQHPG2EOwRj14UQ.webp" alt="pkb">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai2-koalisi-capres1">
+					    <div class="sayid-partai2-koalisi1-capres1">
+						<a class="sayid-partai2-koalisi2-capres1" href="./ProfilePartai/partai5.html">
+						    <div class="sayid-partai2-koalisi3-capres1">
+							<div class="sayid-partai2-koalisi4-capres1">
+							    <img class="sayid-partai2-koalisi5-capres1" src="https://framerusercontent.com/images/8t5uRJOzcZFxgdabguA4KaLLs.webp" alt="nasdem">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai3-koalisi-capres1">
+					    <div class="sayid-partai3-koalisi1-capres1">
+						<a class="sayid-partai3-koalisi2-capres1" href="./ProfilePartai/partai8.html">
+						    <div class="sayid-partai3-koalisi3-capres1">
+							<div class="sayid-partai3-koalisi4-capres1">
+							    <img class="sayid-partai3-koalisi5-capres1" src="https://framerusercontent.com/images/BCHPVMXyRggHoDSQzWIWea8P0k.webp" alt="pks">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai4-koalisi-capres1">
+					    <div class="sayid-partai4-koalisi1-capres1">
+						<a class="sayid-partai4-koalisi2-capres1" href="./ProfilePartai/partai18.html">
+						    <div class="sayid-partai4-koalisi3-capres1">
+							<div class="sayid-partai4-koalisi4-capres1">
+							    <img class="sayid-partai4-koalisi5-capres1" src="https://framerusercontent.com/images/FT3Vh1YHwzV5DzAZl0kM3HQtXNI.webp" alt="ummat">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+		    </div>
+	
+		    <div class="sayid-capres2">
+			<div class="sayid-title-capres2">
+			    <div class="sayid-no-capres2">
+				<div class="sayid-n2">
+				    <p class="sayid-p-content2">NO. 2</p>
+				</div>
+			    </div>
+			    <div class="sayid-nama-visi2">
+				<div class="sayid-nv2">
+				    <div class="sayid-nama2">
+					<h3 class="sayid-h3-nama2">Prabowo & Gibran</h3>
+				    </div>
+				    <div class="sayid-visi2">
+					<p class="sayid-p-nama2">Bersama Indonesia Maju Menuju Indonesia Emas 2045</p>
+				    </div>
+				</div>
+			    </div>
+			</div>
+			<div class="sayid-foto-capres2">
+			    <div class="sayid-prabowo">
+				<div class="sayid-prabowo1">
+				    <div class="sayid-prabowo2">
+					<div class="sayid-prabowo3">
+					    <div class="sayid-prabowo4">
+						<div class="sayid-nama-prabowo">
+						    <h3 class="sayid-nama-prabowo1">Prabowo Subianto</h3>
+						</div>
+						<div class="sayid-cp2">
+						    <p class="sayid-cp2-prabowo">Calon Presiden</p>
+						</div>
+						<div class="sayid-from-cp2">
+						    <div class="sayid-from1-cp2">
+							<a class="sayid-a-from-cp2" href="">
+							    <div class="sayid-a-from1-cp">
+								<div class="sayid-a-from2-cp">
+								    <img class="sayid-img-from-cp2" src="https://framerusercontent.com/images/0VJkRIZP0EaGTEGhqzkJ3IAback.webp" alt="gerindra">
+								</div>
+							    </div>
+							    <div class="sayid-p-from-cp2">
+								<p class="sayid-p1-from-cp2">Gerindra</p>
+							    </div>
+							</a>
+						    </div>
+						</div>
+					    </div>
+					    <div class="sayid-a-prabowo4">
+						<div class="sayid-a1-prabowo4" style="display: contents;">
+						    <a class="sayid-a2-prabowo4" href="">
+							<div class="sayid-prabowo4-a">
+							    <h3 class="sayid-prabowo4-h3">Pelajari Profil</h3>
+							</div>
+							<div class="sayid-prabowo4-a1">
+							    <div class="sayid-prabowo4-a1-svg">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(190, 30, 30)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); color: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); flex-shrink: 0;">
+								    <g color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" weight="bold">
+									<path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path>
+								    </g>
+								</svg>
+							    </div>
+							</div>
+						    </a>
+						</div>
+					    </div>
+					</div>
+					<div class="sayid-foto-prabowo">
+					    <div class="sayid-foto-prabowo1">
+						<img src="https://framerusercontent.com/images/dwzSLTtnVy63Kk8oqLwNQjk6GoE.webp?scale-down-to=512" alt="prabowo" class="sayid-img-prabowo">
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			    <div class="sayid-gibran">
+				<div class="sayid-gibran1">
+				    <div class="sayid-gibran2">
+					<div class="sayid-gibran3">
+					    <div class="sayid-gibran4">
+						<div class="sayid-nama-gibran">
+						    <h3 class="sayid-nama-gibran1">Gibran Rakabuming</h3>
+						</div>
+						<div class="sayid-cwp2">
+						    <p class="sayid-cwp2-gibran">Calon Wakil Presiden</p>
+						</div>
+						<div class="sayid-from-cwp2">
+						    <div class="sayid-from1-cwp2">
+							<a class="sayid-a-from-cwp2" href="">
+							    <div class="sayid-a-from1-cwp2">
+								<div class="sayid-a-from2-cwp2">
+								    <div class="sayid-a-from3-cwp2">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)) /* {&quot;name&quot;:&quot;Text Extra Light&quot;} */" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)); color: var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)); flex-shrink: 0;">
+									    <g color="var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)) /* {&quot;name&quot;:&quot;Text Extra Light&quot;} */" weight="fill">
+										<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm-4,48a12,12,0,1,1-12,12A12,12,0,0,1,124,72Zm12,112a16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40a8,8,0,0,1,0,16Z"></path>
+									    </g>
+									</svg>
+								    </div>
+								</div>
+							    </div>
+							    <div class="sayid-p-from-cwp2">
+								<p class="sayid-p1-from-cwp2">Tentatif</p>
+							    </div>
+							</a>
+						    </div>
+						</div>
+					    </div>
+					    <div class="sayid-a-gibran4">
+						<div class="sayid-a1-gibran4" style="display: contents;">
+						    <a class="sayid-a2-gibran4" href="">
+							<div class="sayid-gibran4-a">
+							    <h3 class="sayid-gibran4-h3">Pelajari Profil</h3>
+							</div>
+							<div class="sayid-gibran4-a1">
+							    <div class="sayid-gibran4-a1-svg">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(190, 30, 30)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); color: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); flex-shrink: 0;">
+								    <g color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" weight="bold">
+									<path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path>
+								    </g>
+								</svg>
+							    </div>
+							</div>
+						    </a>
+						</div>
+					    </div>
+					</div>
+					<div class="sayid-foto-gibran">
+					    <div class="sayid-foto-gibran1">
+						<img class="sayid-img-gibran" src="https://framerusercontent.com/images/qJZW5XYulQcj5AM1YWp4BRmA.webp?scale-down-to=512" alt="gibran">
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+			<div class="sayid-koalisi-capres2">
+			    <div class="sayid-koalisi1-capres2">
+				<div class="sayid-p-koalisi-capres2">
+				    <p class="sayid-p1-koalisi-capres2">KOALISI PARTAI</p>
+				</div>
+				<div class="sayid-partai-koalisi-capres2">
+				    <div class="sayid-partai-koalisi1-capres2">
+					<div class="sayid-partai1-koalisi-capres2">
+					    <div class="sayid-partai1-koalisi1-capres2">
+						<a class="sayid-partai1-koalisi2-capres2" href="./ProfilePartai/partai2.html">
+						    <div class="sayid-partai1-koalisi3-capres2">
+							<div class="sayid-partai1-koalisi4-capres2">
+							    <img class="sayid-partai1-koalisi5-capres2" src="https://framerusercontent.com/images/0VJkRIZP0EaGTEGhqzkJ3IAback.webp" alt="gerindra">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai2-koalisi-capres2">
+					    <div class="sayid-partai2-koalisi1-capres2">
+						<a class="sayid-partai2-koalisi2-capres2" href="./ProfilePartai/partai4.html">
+						    <div class="sayid-partai2-koalisi3-capres2">
+							<div class="sayid-partai2-koalisi4-capres2">
+							    <img class="sayid-partai2-koalisi5-capres2" src="https://framerusercontent.com/images/RfU29vvdx95uC5rwdjOhZ8dygAg.webp" alt="golkar">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai3-koalisi-capres2">
+					    <div class="sayid-partai3-koalisi1-capres2">
+						<a class="sayid-partai3-koalisi2-capres2" href="./ProfilePartai/partai12.html">
+						    <div class="sayid-partai3-koalisi3-capres2">
+							<div class="sayid-partai3-koalisi4-capres2">
+							    <img class="sayid-partai3-koalisi5-capres2" src="https://framerusercontent.com/images/EmDy9jrnB1xIPV6QIudL3QIhB6U.webp" alt="pan">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai4-koalisi-capres2">
+					    <div class="sayid-partai4-koalisi1-capres2">
+						<a class="sayid-partai4-koalisi2-capres2" href="./ProfilePartai/partai14.html">
+						    <div class="sayid-partai4-koalisi3-capres2">
+							<div class="sayid-partai4-koalisi4-capres2">
+							    <img class="sayid-partai4-koalisi5-capres2" src="https://framerusercontent.com/images/fOdt7cbt9PSjcnJnVVZWxYqzMPc.webp" alt="demokrat">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai5-koalisi-capres2">
+					    <div class="sayid-partai5-koalisi1-capres2">
+						<a class="sayid-partai5-koalisi2-capres2" href="./ProfilePartai/partai11.html">
+						    <div class="sayid-partai5-koalisi3-capres2">
+							<div class="sayid-partai5-koalisi4-capres2">
+							    <img class="sayid-partai5-koalisi5-capres2" src="https://framerusercontent.com/images/9Zn4InhKKkCFL5QYIIcezcPks.webp" alt="garuda">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai6-koalisi-capres2">
+					    <div class="sayid-partai6-koalisi1-capres2">
+						<a class="sayid-partai6-koalisi2-capres2" href="./ProfilePartai/partai13.html">
+						    <div class="sayid-partai6-koalisi3-capres2">
+							<div class="sayid-partai6-koalisi4-capres2">
+							    <img class="sayid-partai6-koalisi5-capres2" src="https://framerusercontent.com/images/qLeG8m6ZCPs0jV9QVfUwSbn24k.webp" alt="pbb">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai7-koalisi-capres2">
+					    <div class="sayid-partai7-koalisi1-capres2">
+						<a class="sayid-partai7-koalisi2-capres2" href="./ProfilePartai/partai7.html">
+						    <div class="sayid-partai7-koalisi3-capres2">
+							<div class="sayid-partai7-koalisi4-capres2">
+							    <img class="sayid-partai7-koalisi5-capres2" src="https://framerusercontent.com/images/Zb6vPN6SpdVapHb7wlfd0bL0LI.webp" alt="gelora">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai8-koalisi-capres2">
+					    <div class="sayid-partai8-koalisi1-capres2">
+						<a class="sayid-partai8-koalisi2-capres2" href="./ProfilePartai/partai15.html">
+						    <div class="sayid-partai8-koalisi3-capres2">
+							<div class="sayid-partai8-koalisi4-capres2">
+							    <img class="sayid-partai8-koalisi5-capres2" src="https://framerusercontent.com/images/Arp0ycWeSZOAAbljKbNqW0Mn3s.webp" alt="psi">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+		    </div>
+		    
+		    <div class="sayid-capres3">
+			<div class="sayid-title-capres3">
+			    <div class="sayid-no-capres3">
+				<div class="sayid-n3">
+				    <p class="sayid-p-content3">NO. 3</p>
+				</div>
+			    </div>
+			    <div class="sayid-nama-visi3">
+				<div class="sayid-nv3">
+				    <div class="sayid-nama3">
+					<h3 class="sayid-h3-nama3">Ganjar & Mahfud</h3>
+				    </div>
+				    <div class="sayid-visi3">
+					<p class="sayid-p-nama3">Gerak Cepat Menuju Indonesia Unggul</p>
+				    </div>
+				</div>
+			    </div>
+			</div>
+			<div class="sayid-foto-capres3">
+			    <div class="sayid-ganjar">
+				<div class="sayid-ganjar1">
+				    <div class="sayid-ganjar2">
+					<div class="sayid-ganjar3">
+					    <div class="sayid-ganjar4">
+						<div class="sayid-nama-ganjar">
+						    <h3 class="sayid-nama-ganjar1">Ganjar Pranowo</h3>
+						</div>
+						<div class="sayid-cp3">
+						    <p class="sayid-cp3-ganjar">Calon Presiden</p>
+						</div>
+						<div class="sayid-from-cp3">
+						    <div class="sayid-from1-cp3">
+							<a class="sayid-a-from-cp3" href="">
+							    <div class="sayid-a-from1-cp3">
+								<div class="sayid-a-from2-cp3">
+								    <img class="sayid-img-from-cp3" src="https://framerusercontent.com/images/0V0IduzBnP5bTqJRMCkflIobiE.webp" alt="pdip">
+								</div>
+							    </div>
+							    <div class="sayid-p-from-cp3">
+								<p class="sayid-p1-from-cp3">PDIP</p>
+							    </div>
+							</a>
+						    </div>
+						</div>
+					    </div>
+					    <div class="sayid-a-ganjar4">
+						<div class="sayid-a1-ganjar4" style="display: contents;">
+						    <a class="sayid-a2-ganjar4" href="">
+							<div class="sayid-ganjar4-a">
+							    <h3 class="sayid-ganjar4-h3">Pelajari Profil</h3>
+							</div>
+							<div class="sayid-ganjar4-a1">
+							    <div class="sayid-ganjar4-a1-svg">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(190, 30, 30)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); color: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); flex-shrink: 0;">
+								    <g color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" weight="bold">
+									<path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path>
+								    </g>
+								</svg>
+							    </div>
+							</div>
+						    </a>
+						</div>
+					    </div>
+					</div>
+					<div class="sayid-foto-ganjar">
+					    <div class="sayid-foto-ganjar1">
+						<img class="sayid-img-ganjar" src="https://framerusercontent.com/images/DTjFPFr3sp9pNXGVibTRH6Kk.webp" alt="ganjar">
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			    <div class="sayid-mahfud">
+				<div class="sayid-mahfud1">
+				    <div class="sayid-mahfud2">
+					<div class="sayid-mahfud3">
+					    <div class="sayid-mahfud4">
+						<div class="sayid-nama-mahfud">
+						    <h3 class="sayid-nama-mahfud1">Mahfud MD</h3>
+						</div>
+						<div class="sayid-cwp3">
+						    <p class="sayid-cwp3-mahfud">Calon Wakil Presiden</p>
+						</div>
+						<div class="sayid-from-cwp3">
+						    <div class="sayid-from1-cwp3">
+							<a class="sayid-a-from-cwp3" href="">
+							    <div class="sayid-a-from1-cwp3">
+								<div class="sayid-a-from2-cwp3">
+								    <div class="sayid-a-from3-cwp3">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)) /* {&quot;name&quot;:&quot;Text Extra Light&quot;} */" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)); color: var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)); flex-shrink: 0;">
+									    <g color="var(--token-408fe892-4f90-4986-b1bc-4a5a73d1bbf3, rgb(131, 131, 131)) /* {&quot;name&quot;:&quot;Text Extra Light&quot;} */" weight="fill">
+										<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm-4,48a12,12,0,1,1-12,12A12,12,0,0,1,124,72Zm12,112a16,16,0,0,1-16-16V128a8,8,0,0,1,0-16,16,16,0,0,1,16,16v40a8,8,0,0,1,0,16Z"></path>
+									    </g>
+									</svg>
+								    </div>
+								</div>
+							    </div>
+							    <div class="sayid-p-from-cwp3">
+								<p class="sayid-p1-from-cwp3">Non Partai</p>
+							    </div>
+							</a>
+						    </div>
+						</div>
+					    </div>
+					    <div class="sayid-a-mahfud4">
+						<div class="sayid-a1-mahfud4" style="display: contents;">
+						    <a class="sayid-a2-mahfud4" href="">
+							<div class="sayid-mahfud4-a">
+							    <h3 class="sayid-mahfud4-h3">Pelajari Profil</h3>
+							</div>
+							<div class="sayid-mahfud4-a1">
+							    <div class="sayid-mahfud4-a1-svg">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" focusable="false" color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(190, 30, 30)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" style="user-select: none; width: 100%; height: 100%; display: inline-block; fill: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); color: var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)); flex-shrink: 0;">
+								    <g color="var(--token-fae25358-8e7b-4186-8b42-bd047e238d5a, rgb(230, 91, 72)) /* {&quot;name&quot;:&quot;BM Red&quot;} */" weight="bold">
+									<path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"></path>
+								    </g>
+								</svg>
+							    </div>
+							</div>
+						    </a>
+						</div>
+					    </div>
+					</div>
+					<div class="sayid-foto-mahfud">
+					    <div class="sayid-foto-mahfud1">
+						<img class="sayid-img-mahfud" src="https://framerusercontent.com/images/u8aFsm0ZEUKNYoTPtMXEu7mZ0dQ.webp" alt="mahfud">
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+			<div class="sayid-koalisi-capres3">
+			    <div class="sayid-koalisi1-capres3">
+				<div class="sayid-p-koalisi-capres3">
+				    <p class="sayid-p1-koalisi-capres3">KOALISI PARTAI</p>
+				</div>
+				<div class="sayid-partai-koalisi-capres3">
+				    <div class="sayid-partai-koalisi1-capres3">
+					<div class="sayid-partai1-koalisi-capres3">
+					    <div class="sayid-partai1-koalisi1-capres3">
+						<a class="sayid-partai1-koalisi2-capres3" href="./ProfilePartai/partai3.html">
+						    <div class="sayid-partai1-koalisi3-capres3">
+							<div class="sayid-partai1-koalisi4-capres3">
+							    <img class="sayid-partai1-koalisi5-capres3" src="https://framerusercontent.com/images/0V0IduzBnP5bTqJRMCkflIobiE.webp" alt="pdip">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai2-koalisi-capres3">
+					    <div class="sayid-partai2-koalisi1-capres3">
+						<a class="sayid-partai2-koalisi2-capres3" href="./ProfilePartai/partai17.html">
+						    <div class="sayid-partai2-koalisi3-capres3">
+							<div class="sayid-partai2-koalisi4-capres3">
+							    <img class="sayid-partai2-koalisi5-capres3" src="https://framerusercontent.com/images/9kbqj2KUOF8QjxqJsfHFbjgvto.webp" alt="ppp">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai3-koalisi-capres3">
+					    <div class="sayid-partai3-koalisi1-capres3">
+						<a class="sayid-partai3-koalisi2-capres3" href="./ProfilePartai/partai16.html">
+						    <div class="sayid-partai3-koalisi3-capres3">
+							<div class="sayid-partai3-koalisi4-capres3">
+							    <img class="sayid-partai3-koalisi5-capres3" src="https://framerusercontent.com/images/9YDy7u43ge6mYNZTrSlh9RzTzQ.webp" alt="perindo">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+					<div class="sayid-partai4-koalisi-capres3">
+					    <div class="sayid-partai4-koalisi1-capres3">
+						<a class="sayid-partai4-koalisi2-capres3" href="./ProfilePartai/partai10.html">
+						    <div class="sayid-partai4-koalisi3-capres3">
+							<div class="sayid-partai4-koalisi4-capres3">
+							    <img class="sayid-partai4-koalisi5-capres3" src="https://framerusercontent.com/images/Y2rSg1mqzpxTyDaZ2lYHMkiHy0.webp" alt="hanura">
+							</div>
+						    </div>
+						</a>
+					    </div>
+					</div>
+				    </div>
+				</div>
+			    </div>
+			</div>
+		    </div>
+		</div>
+	    </div>
+	<!-- KANDIDAT END -->
+	<!-- CONTACT SECTION -->
+	<section id="Contact" class="h-full pb-[100px] pt-[60px] bg-[#161B44]">
+	<h1 class="text-[50px] font-bold text-center mb-[25px] text-white">Meet Our Team</h1>
+	<div class="flex justify-evenly">
+		<div class="group before:hover:scale-95 before:hover:h-72 before:hover:w-80  before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-orange-200 to-orange-700 before:absolute before:top-0 w-80 h-72 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
+			<div class="w-28 h-28 bg-blue-700 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-150 group-hover:-translate-x-24  group-hover:-translate-y-20 transition-all duration-500"><img src="./img/Dul.png" alt=""></div>
+			<div class="z-10  group-hover:-translate-y-10 transition-all duration-500">
+			  <span class="text-2xl font-semibold">Ahmad Sayyiduliman</span>
+			  <p>Kandidat Capres</p>
+			</div>
+			<a class="bg-blue-700 px-4 py-1 text-slate-50 rounded-md z-10 hover:scale-125 transition-all duration-500 hover:bg-blue-500" href="https://www.instagram.com/sayyiduliman">Folow</a>
+		</div>
+		<div class="group before:hover:scale-95 before:hover:h-72 before:hover:w-80  before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-orange-200 to-orange-700 before:absolute before:top-0 w-80 h-72 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
+			<div class="w-28 h-28 bg-blue-700 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-150 group-hover:-translate-x-24  group-hover:-translate-y-20 transition-all duration-500"><img src="./img/Er.png" alt=""></div>
+			<div class="z-10  group-hover:-translate-y-10 transition-all duration-500">
+			  <span class="text-2xl font-semibold">Erlangga Aditia</span>
+			  <p>Penanggung Jawab</p>
+			</div>
+			<a class="bg-blue-700 px-4 py-1 text-slate-50 rounded-md z-10 hover:scale-125 transition-all duration-500 hover:bg-blue-500" href="https://www.instagram.com/erladitia">Folow</a>
+		</div>
+		<div class="group before:hover:scale-95 before:hover:h-72 before:hover:w-80  before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-orange-200 to-orange-700 before:absolute before:top-0 w-80 h-72 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
+			<div class="w-28 h-28 bg-blue-700 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-150 group-hover:-translate-x-24  group-hover:-translate-y-20 transition-all duration-500"><img src="./img/Jems.png" alt=""></div>
+			<div class="z-10  group-hover:-translate-y-10 transition-all duration-500">
+			  <span class="text-2xl font-semibold">Jasmine Lidwina</span>
+			  <p>Profile Partai Politik</p>
+			</div>
+			<a class="bg-blue-700 px-4 py-1 text-slate-50 rounded-md z-10 hover:scale-125 transition-all duration-500 hover:bg-blue-500" href="https://www.instagram.com/ldwjasmine">Folow</a>
+		</div>
+
+	</div>
+	</section>
+	<!-- CONTACT END -->
+	
+	<!-- FOOTER SECTION -->
+	<footer class="footer p-5 bg-base-300 text-base-content flex justify-evenly">
+		<nav>
+		  <header class="footer-title">Build With</header> 
+		  <a href="https://tailwindcss.com/" class="link link-hover">Tailwind CSS</a>
+		  <a href="https://gsap.com/" class="link link-hover">GSAP</a>
+		  <a href="https://laravel.com/" class="link link-hover">Laravel</a>
+		  <a href="https://firebase.google.com/?hl=id" class="link link-hover">Firebase</a>
+		</nav> 
+		<nav>
+		  <header class="footer-title">Build With</header> 
+		  <a href="https://remixicon.com/" class="link link-hover">Remix Icon</a>
+		  <a href="https://uiverse.io/" class="link link-hover">UIverse</a>
+		  <a href="https://daisyui.com/" class="link link-hover">DaisyUI</a>
+		</nav> 
+		<nav>
+			<header class="footer-title">Spesial Mention</header> 
+			<a href="https://www.youtube.com/@approvecode" class="link link-hover">Approvecode</a>
+			<a href="https://www.youtube.com/@aderidwan9874" class="link link-hover">Ade Ridwan</a>
+			<a href="https://antikorupsi.org/" class="link link-hover">ICW</a>
+			
+		</nav> 
+		<nav>
+			<header class="footer-title">Give Us FeedBack</header> 
+			<a href="https://mail.google.com/mail/?view=cm&fs=1&to=erladitia14@upi.edu" target="_blank"><button class="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
+				Send With Email
+			</button></a>
+			      
+			
+			
+		</nav> 
+		
+	      </footer>
+	<!-- FOOTER END  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.0/bundled/lenis.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+  	<script type="module" src="script.js"></script>
+</body>
+</html>

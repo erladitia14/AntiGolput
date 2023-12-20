@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="dul.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.0.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>AntiGolput</title>
+</head>
+<body>
+        <!-- FOOTER START -->
+        <footer class="flex justify-end py-2 px-6 w-full mx-auto fixed bg-white z-50" id="header">
+                <div class="flex items-center mr-10">
+			<button id="login" class="button-login">
+				<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 256 262" class="svg">
+				<path fill="#4285F4" d="M255.878 133.451c0-10.734-.871-18.567-2.756-26.69H130.55v48.448h71.947c-1.45 12.04-9.283 30.172-26.69 42.356l-.244 1.622 38.755 30.023 2.685.268c24.659-22.774 38.875-56.282 38.875-96.027" class="blue"></path>
+				<path fill="#34A853" d="M130.55 261.1c35.248 0 64.839-11.605 86.453-31.622l-41.196-31.913c-11.024 7.688-25.82 13.055-45.257 13.055-34.523 0-63.824-22.773-74.269-54.25l-1.531.13-40.298 31.187-.527 1.465C35.393 231.798 79.49 261.1 130.55 261.1" class="green"></path>
+				<path fill="#FBBC05" d="M56.281 156.37c-2.756-8.123-4.351-16.827-4.351-25.82 0-8.994 1.595-17.697 4.206-25.82l-.073-1.73L15.26 71.312l-1.335.635C5.077 89.644 0 109.517 0 130.55s5.077 40.905 13.925 58.602l42.356-32.782" class="yellow"></path>
+				<path fill="#EB4335" d="M130.55 50.479c24.514 0 41.05 10.589 50.479 19.438l36.844-35.974C195.245 12.91 165.798 0 130.55 0 79.49 0 35.393 29.301 13.925 71.947l42.211 32.783c10.59-31.477 39.891-54.251 74.414-54.251" class="red"></path>
+			      </svg>
+			      <span class="text">Continue with Google</span>
+			</button>
+                </div>
+        </footer>
+        <!-- FOOTER END -->
+
+        <!-- LANDING START -->
+        <section class="w-full pt-[50px] bg-[#161B44] pb-10" id="Home">
+          <div class="flex justify-center mb-3">
+            <div class="w-1/2">
+              <img id="image" class="w-[270px] mt-[25px] ml-[300px]" src="./img/Voting.png" alt="FOTO" class="w-full h-full object-cover">
+          </div>
+          <div class="w-1/2">
+            <h1 class="absolute text-[80px] text-white font-bold text-center typing typing-line"><br></h1>
+              <h1 class="text-6xl mb-4 mt-[120px] text-white">Suara Pemilu</h1>
+              <h1 class="text-5xl text-white">Adalah <span class="text-[#ebc17a] text-animation"></span></h1>
+          </div>
+        </div>
+          <div class="w-[50%] m-auto bg-slate-700 rounded-3xl p-10">
+          <h1 class="text-3xl font-bold text-center text-white opacity-80">Countdown Pemilu</h1>
+          <div class="flex justify-center my-3"><button class="bg-red-400 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full animate-pulse">
+		14 Februari 2024
+	      </button></div>
+          <div class="flex items-center justify-center">
+            <div class="grid grid-flow-col gap-10 text-center auto-cols-max">
+              <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl" id="days">
+                  <span></span>
+                </span>
+                Days
+              </div> 
+              <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl" id="hours">
+                  <span></span>
+                </span>
+                Hours
+              </div> 
+              <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl" id="minutes">
+                  <span></span>
+                </span>
+                Min
+              </div> 
+              <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+                <span class="countdown font-mono text-5xl" id="seconds">
+                  <span></span>
+                </span>
+                Sec
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </section>
+        <!-- LANDING END -->
+
+	
+	<!-- CONTACT SECTION -->
+	<section id="Contact" class="h-full pb-[100px] pt-[60px] bg-[#161B44]">
+		<h1 class="text-[50px] font-bold text-center mb-[25px] text-white">Meet Our Team</h1>
+		<div class="flex justify-evenly">
+			<div class="group before:hover:scale-95 before:hover:h-72 before:hover:w-80  before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-orange-200 to-orange-700 before:absolute before:top-0 w-80 h-72 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
+				<div class="w-28 h-28 bg-blue-700 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-150 group-hover:-translate-x-24  group-hover:-translate-y-20 transition-all duration-500"><img src="./img/Dul.png" alt=""></div>
+				<div class="z-10  group-hover:-translate-y-10 transition-all duration-500">
+				  <span class="text-2xl font-semibold">Ahmad Sayyiduliman</span>
+				  <p>Kandidat Capres</p>
+				</div>
+				<a class="bg-blue-700 px-4 py-1 text-slate-50 rounded-md z-10 hover:scale-125 transition-all duration-500 hover:bg-blue-500" href="https://www.instagram.com/sayyiduliman">Folow</a>
+			</div>
+			<div class="group before:hover:scale-95 before:hover:h-72 before:hover:w-80  before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-orange-200 to-orange-700 before:absolute before:top-0 w-80 h-72 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
+				<div class="w-28 h-28 bg-blue-700 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-150 group-hover:-translate-x-24  group-hover:-translate-y-20 transition-all duration-500"><img src="./img/Er.png" alt=""></div>
+				<div class="z-10  group-hover:-translate-y-10 transition-all duration-500">
+				  <span class="text-2xl font-semibold">Erlangga Aditia</span>
+				  <p>Penanggung Jawab</p>
+				</div>
+				<a class="bg-blue-700 px-4 py-1 text-slate-50 rounded-md z-10 hover:scale-125 transition-all duration-500 hover:bg-blue-500" href="https://www.instagram.com/erladitia">Folow</a>
+			</div>
+			<div class="group before:hover:scale-95 before:hover:h-72 before:hover:w-80  before:hover:rounded-b-2xl before:transition-all before:duration-500 before:content-[''] before:w-80 before:h-24 before:rounded-t-2xl before:bg-gradient-to-bl from-sky-200 via-orange-200 to-orange-700 before:absolute before:top-0 w-80 h-72 relative bg-slate-50 flex flex-col items-center justify-center gap-2 text-center rounded-2xl overflow-hidden">
+				<div class="w-28 h-28 bg-blue-700 mt-8 rounded-full border-4 border-slate-50 z-10 group-hover:scale-150 group-hover:-translate-x-24  group-hover:-translate-y-20 transition-all duration-500"><img src="./img/Jems.png" alt=""></div>
+				<div class="z-10  group-hover:-translate-y-10 transition-all duration-500">
+				  <span class="text-2xl font-semibold">Jasmine Lidwina</span>
+				  <p>Profile Partai Politik</p>
+				</div>
+				<a class="bg-blue-700 px-4 py-1 text-slate-50 rounded-md z-10 hover:scale-125 transition-all duration-500 hover:bg-blue-500" href="https://www.instagram.com/ldwjasmine">Folow</a>
+			</div>
+	
+		</div>
+		</section>
+		<!-- CONTACT END -->
+		
+		<!-- FOOTER SECTION -->
+		<footer class="footer p-5 bg-base-300 text-base-content flex justify-evenly">
+			<nav>
+			  <header class="footer-title">Build With</header> 
+			  <a href="https://tailwindcss.com/" class="link link-hover">Tailwind CSS</a>
+			  <a href="https://gsap.com/" class="link link-hover">GSAP</a>
+			  <a href="https://laravel.com/" class="link link-hover">Laravel</a>
+			  <a href="https://firebase.google.com/?hl=id" class="link link-hover">Firebase</a>
+			</nav> 
+			<nav>
+			  <header class="footer-title">Build With</header> 
+			  <a href="https://remixicon.com/" class="link link-hover">Remix Icon</a>
+			  <a href="https://uiverse.io/" class="link link-hover">UIverse</a>
+			  <a href="https://daisyui.com/" class="link link-hover">DaisyUI</a>
+			</nav> 
+			<nav>
+				<header class="footer-title">Spesial Mention</header> 
+				<a href="https://www.youtube.com/@approvecode" class="link link-hover">Approvecode</a>
+				<a href="https://www.youtube.com/@aderidwan9874" class="link link-hover">Ade Ridwan</a>
+				<a href="https://antikorupsi.org/" class="link link-hover">ICW</a>
+				
+			</nav> 
+			<nav>
+				<header class="footer-title">Give Us FeedBack</header> 
+				<a href="https://mail.google.com/mail/?view=cm&fs=1&to=erladitia14@upi.edu" target="_blank"><button class="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 text-white font-bold py-3 px-6 rounded-full shadow-lg transform transition-all duration-500 ease-in-out hover:scale-110 hover:brightness-110 hover:animate-pulse active:animate-bounce">
+					Send With Email
+				</button></a>
+				      
+				
+				
+			</nav> 
+			
+		      </footer>
+		<!-- FOOTER END  -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  	<script type="module" src="script.js"></script>
+</body>
+</html>

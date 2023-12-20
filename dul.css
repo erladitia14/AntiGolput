@@ -1,0 +1,4021 @@
+
+.sayid-judul {
+        padding: 50px 50px 20px;
+        place-content: center;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        height: min-content;
+        overflow: visible;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .sayid-row {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: center flex-start;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 18px;
+        height: min-content;
+        max-width: 800px;
+        overflow: visible;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-col1-judul {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-p-col1 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .sayid-col2 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        width: 87%;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-h1-col2 {
+        text-align: center;
+        font-family: sans-serif;
+        color: black;
+        font-size: 60px;
+        font-weight: bold;
+        margin-top: 20px;
+        letter-spacing: -1px;
+        line-height: 1.1em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-col3 {
+        border-bottom-width: 1px;
+        border-color: rgba(0, 0, 0, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        place-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 30px -20px;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 18px;
+        height: min-content;
+        overflow: hidden;
+        padding: 20px;
+        position: relative;
+        width: min-content;
+        will-change: var(transform);
+    }
+    
+    .sayid-col3-judul {
+        place-content: center;
+        align-items: center;
+        aspect-ratio: 1 / 1;
+        background-color: #dddddd9c;
+        border-radius: 10px;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: 32px;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 32px;
+        will-change: var(transform);
+    }
+    
+    .sayid-col3-judul1 {
+        flex: 0 0 auto;
+        height: 18px;
+        position: relative;
+        width: 18px;
+    }
+    
+    .sayid-teks-dis {
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 30px;
+        height: min-content;
+        overflow: visible;
+        padding: 0px;
+        position: relative;
+        width: min-content;
+    }
+    
+    .sayid-teks-dis1 {
+        place-content: center;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 10px;
+        height: min-content;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: min-content;
+    }
+    
+    .sayid-teks-dis2 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-teks-dis2 h3 {
+        font-size: 18px;
+        font-family: sans-serif;
+        align-items: center;
+        font-style: normal;
+        font-weight: bolder;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        color: black;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-content {
+        padding: 40px 50px 100px;
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 28px;
+        height: min-content;
+        max-width: 1440px;
+        overflow: visible;
+        padding: 40px 100px 100px;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .sayid-content1 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        opacity: 1;
+        transform: perspective(1200px);
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 600px;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-h3-content{
+        font-size: 22px;
+        font-family: sans-serif;
+        color: black;
+        text-align: left;
+        font-style: normal;
+        font-weight: bolder;
+        letter-spacing: -0.2px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-content2 {
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 16px;
+        height: min-content;
+        max-width: 1440px;
+        overflow: visible;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .sayid-capres1 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        place-content: flex-start;
+        align-items: flex-start;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px -20px;
+        display: flex;
+        flex: 1 0 0px;
+        flex-flow: column;
+        gap: 40px;
+        height: min-content;
+        overflow: hidden;
+        padding: 28px;
+        position: relative;
+        width: 1px;
+        will-change: var(transform);
+    }
+    
+    .sayid-capres2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        place-content: flex-start;
+        align-items: flex-start;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px -20px;
+        display: flex;
+        flex: 1 0 0px;
+        flex-flow: column;
+        gap: 40px;
+        height: min-content;
+        overflow: hidden;
+        padding: 28px;
+        position: relative;
+        width: 1px;
+        will-change: var(transform);
+    }
+    
+    .sayid-capres3 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        place-content: flex-start;
+        align-items: flex-start;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px -20px;
+        display: flex;
+        flex: 1 0 0px;
+        flex-flow: column;
+        gap: 40px;
+        height: min-content;
+        overflow: hidden;
+        padding: 28px;
+        position: relative;
+        width: 1px;
+        will-change: var(transform);
+    }
+    
+    .sayid-title-capres1 {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 15px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-title-capres2 {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 15px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-title-capres3 {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 15px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-no-capres1 {
+        place-content: center flex-start;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-no-capres2 {
+        place-content: center flex-start;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-no-capres3 {
+        place-content: center flex-start;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-n1 {
+        outline: none;
+        display: flex;
+        flex: 1 0 0px;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 1px;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-n2 {
+        outline: none;
+        display: flex;
+        flex: 1 0 0px;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 1px;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-n3 {
+        outline: none;
+        display: flex;
+        flex: 1 0 0px;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 1px;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-p-content1 {
+        font-family: sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(92, 87, 87);
+    }
+    
+    .sayid-p-content2 {
+        font-family: sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(92, 87, 87);
+    }
+    
+    .sayid-p-content3 {
+        font-family: sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgb(92, 87, 87);
+    }
+    
+    .sayid-nama-visi1 {
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-nama-visi2 {
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-nama-visi3 {
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-nv1 {
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 1 0 0px;
+        flex-flow: column;
+        gap: 6px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 1px;
+    }
+    
+    .sayid-nv2 {
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 1 0 0px;
+        flex-flow: column;
+        gap: 6px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 1px;
+    }
+    
+    .sayid-nv3 {
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 1 0 0px;
+        flex-flow: column;
+        gap: 6px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 1px;
+    }
+    
+    .sayid-nama1 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        width: 90%;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-nama2 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        width: 90%;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-nama3 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        width: 90%;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-h3-nama1 {
+        color: rgb(51, 49, 50);
+        text-align: left;
+        font-family: "Manrope", sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: bolder;
+        letter-spacing: -0.2px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-h3-nama2 {
+        color: rgb(51, 49, 50);
+        text-align: left;
+        font-family: "Manrope", sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: bolder;
+        letter-spacing: -0.2px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-h3-nama3 {
+        color: rgb(51, 49, 50);
+        text-align: left;
+        font-family: "Manrope", sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: bolder;
+        letter-spacing: -0.2px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-visi1 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        width: 90%;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-visi2 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        width: 90%;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-visi3 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        width: 90%;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    .sayid-p-nama1 {
+        color: rgb(92, 87, 87);
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.5em;
+        text-align: start;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-p-nama2 {
+        color: rgb(92, 87, 87);
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.5em;
+        text-align: start;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-p-nama3 {
+        color: rgb(92, 87, 87);
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.5em;
+        text-align: start;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-foto-capres1 {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: min-content;
+        max-height: 350px;
+        min-height: 250px;
+        overflow: visible;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-foto-capres2 {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: min-content;
+        max-height: 350px;
+        min-height: 250px;
+        overflow: visible;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-foto-capres3 {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: row;
+        gap: 10px;
+        height: min-content;
+        max-height: 350px;
+        min-height: 250px;
+        overflow: visible;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-anies {
+        align-self: stretch;
+        flex: 1 0 0px;
+        height: auto;
+        position: relative;
+        width: 1px;
+    }
+    
+    .sayid-anies1 {
+        display: contents;
+    }
+    
+    .sayid-anies2 {
+        border-bottom-width: 1px;
+        border-color: rgba(0, 0, 0, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: none;
+        opacity: 1;
+        height: 100%;
+        cursor: default;
+        gap: 12px;
+        padding: 10px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: hidden;
+        position: relative;
+        will-change: var(transform);
+    }
+    
+    .sayid-anies3 {
+        opacity: 1;
+        order: 4;
+        gap: 16px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-anies4 {
+        opacity: 1;
+        gap: 6px;
+        justify-content: flex-start;
+        max-width: unset;
+        order: 0;
+        overflow: visible;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        padding: 0;
+        position: relative;
+        width: 100%;    
+    }
+    
+    .sayid-a-anies4 {
+        opacity: 1;
+        cursor: pointer;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a2-anies4 {
+        opacity: 1;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    }
+    
+    .sayid-anies4-a {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1; 
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-anies4-h3 {
+        color: rgb(190, 30, 30);
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .sayid-anies4-a1 {
+        opacity: 1;
+        height: 14px;
+        width: 13px;
+        flex: none;
+        position: relative;
+    }
+    
+    .sayid-nama-anies {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        opacity: 1;
+        transform: none;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-nama-anies1 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-cp1 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-cp1-anies {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+        color: rgb(110, 110, 110);
+    }
+    
+    .sayid-from-cp1 {
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a-from-cp1 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        cursor: unset;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+        color: rgb(131, 131, 131);
+    }
+    
+    .sayid-a-from1-cp1 {
+        opacity: 1;
+        order: 2;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+        height: 20px;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 20px;
+    }
+    
+    .sayid-a-from2-cp1 {
+        opacity: 1;
+        flex: none;
+        height: 14px;
+        position: relative;
+        width: 14px;
+    }
+    
+    .sayid-a-from3-cp1 {
+        display: contents;
+    }
+    
+    .sayid-p-from-cp1 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+        order: 1;
+    }
+    
+    .sayid-p1-from-cp1 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-foto-anies {
+        border-radius: 10px;
+        opacity: 1;
+        aspect-ratio: 1 / 1;
+        height: var(150px);
+        max-height: 150px;
+        max-width: 150px;
+        order: 2;
+        flex: none;
+        overflow: visible;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-foto-anies1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-img-anies {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-imin {
+        align-self: stretch;
+        flex: 1 0 0px;
+        height: auto;
+        position: relative;
+        width: 1px;
+    }
+    
+    .sayid-imin1 {
+        display: contents;
+    }
+    
+    .sayid-imin2 {
+        border-bottom-width: 1px;
+        border-color: rgba(0, 0, 0, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: none;
+        opacity: 1;
+        height: 100%;
+        cursor: default;
+        gap: 12px;
+        padding: 10px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: hidden;
+        position: relative;
+        will-change: var(transform);
+    }
+    
+    .sayid-imin3 {
+        opacity: 1;
+        order: 4;
+        gap: 16px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-imin4 {
+        opacity: 1;
+        gap: 6px;
+        justify-content: flex-start;
+        max-width: unset;
+        order: 0;
+        overflow: visible;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        padding: 0;
+        position: relative;
+        width: 100%;    
+    }
+    
+    .sayid-a-imin4 {
+        opacity: 1;
+        cursor: pointer;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a2-imin4 {
+        opacity: 1;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    }
+    
+    .sayid-imin4-a {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1; 
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-imin4-h3 {
+        color: rgb(190, 30, 30);
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .sayid-imin4-a1 {
+        opacity: 1;
+        height: 14px;
+        width: 13px;
+        flex: none;
+        position: relative;
+    }
+    
+    .sayid-nama-imin {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        opacity: 1;
+        transform: none;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-nama-imin1 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-cwp1 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-cwp1-imin {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+        color: rgb(110, 110, 110);
+    }
+    
+    .sayid-from-cwp1 {
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a-from-cwp1 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        cursor: unset;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+        color: rgb(131, 131, 131);
+    }
+    
+    .sayid-a-from1-cwp1 {
+        border-radius: 4px;
+        opacity: 1;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        height: 20px;
+        overflow: hidden;
+        position: relative;
+        width: 20px;
+        will-change: var(transform);
+    }
+    
+    .sayid-a-from2-cwp1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-img-from-cwp1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-p-from-cwp1 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-p1-from-cwp1 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+        color: rgb(92, 87, 87);
+    }
+    
+    .sayid-foto-imin {
+        border-radius: 10px;
+        opacity: 1;
+        aspect-ratio: 1 / 1;
+        height: var(150px);
+        max-height: 150px;
+        max-width: 150px;
+        order: 2;
+        flex: none;
+        overflow: visible;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-foto-imin1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-img-imin {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-koalisi-capres1 {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: flex-start;
+        align-items: flex-start;
+        background-color: #ffffff;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column wrap;
+        gap: 32px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-koalisi1-capres1 {
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 10px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-p-koalisi-capres1 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-p1-koalisi-capres1 {
+        color: rgb(91, 94, 118);
+        font-family: "Manrope", sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .sayid-partai-koalisi-capres1 {
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 21px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-partai-koalisi1-capres1 {
+        place-content: center flex-start;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: wrap;
+        gap: 8px;
+        height: min-content;
+        overflow: visible;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-partai1-koalisi-capres1 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai1-koalisi1-capres1 {
+        display: contents;
+    }
+    
+    .sayid-partai1-koalisi2-capres1 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai1-koalisi3-capres1 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai1-koalisi4-capres1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai1-koalisi5-capres1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai2-koalisi-capres1 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai2-koalisi1-capres1 {
+        display: contents;
+    }
+    
+    .sayid-partai2-koalisi2-capres1 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai2-koalisi3-capres1 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai2-koalisi4-capres1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai2-koalisi5-capres1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai3-koalisi-capres1 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai3-koalisi1-capres1 {
+        display: contents;
+    }
+    
+    .sayid-partai3-koalisi2-capres1 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai3-koalisi3-capres1 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai3-koalisi4-capres1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai3-koalisi5-capres1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai4-koalisi-capres1 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai4-koalisi1-capres1 {
+        display: contents;
+    }
+    
+    .sayid-partai4-koalisi2-capres1 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai4-koalisi3-capres1 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai4-koalisi4-capres1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai4-koalisi5-capres1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-prabowo {
+        align-self: stretch;
+        flex: 1 0 0px;
+        height: auto;
+        position: relative;
+        width: 1px;
+    }
+    
+    .sayid-prabowo1 {
+        display: contents;
+    }
+    
+    .sayid-prabowo2 {
+        border-bottom-width: 1px;
+        border-color: rgba(0, 0, 0, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: none;
+        opacity: 1;
+        height: 100%;
+        cursor: default;
+        gap: 12px;
+        padding: 10px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: hidden;
+        position: relative;
+        will-change: var(transform);
+    }
+    
+    .sayid-prabowo3 {
+        opacity: 1;
+        order: 4;
+        gap: 16px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-prabowo4 {
+        opacity: 1;
+        gap: 6px;
+        justify-content: flex-start;
+        max-width: unset;
+        order: 0;
+        overflow: visible;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        padding: 0;
+        position: relative;
+        width: 100%;    
+    }
+    
+    .sayid-a-prabowo4 {
+        opacity: 1;
+        cursor: pointer;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a2-prabowo4 {
+        opacity: 1;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    }
+    
+    .sayid-prabowo4-a {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1; 
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-prabowo4-h3 {
+        color: rgb(190, 30, 30);
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .sayid-prabowo4-a1 {
+        opacity: 1;
+        height: 14px;
+        width: 13px;
+        flex: none;
+        position: relative;
+    }
+    
+    .sayid-nama-prabowo {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        opacity: 1;
+        transform: none;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-nama-prabowo1 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-cp2 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-cp2-prabowo {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+        color: rgb(110, 110, 110);
+    }
+    
+    .sayid-from-cp2 {
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a-from-cp2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        cursor: unset;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+        color: rgb(131, 131, 131);
+    }
+    
+    .sayid-a-from1-cp2 {
+        border-radius: 4px;
+        opacity: 1;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        height: 20px;
+        overflow: hidden;
+        position: relative;
+        width: 20px;
+        will-change: var(transform);
+    }
+    
+    .sayid-a-from2-cp2 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-img-from-cp2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-p-from-cp2 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-p1-from-cp2 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+        color: rgb(92, 87, 87);
+    }
+    
+    .sayid-foto-prabowo {
+        border-radius: 10px;
+        opacity: 1;
+        aspect-ratio: 1 / 1;
+        height: var(150px);
+        max-height: 150px;
+        max-width: 150px;
+        order: 2;
+        flex: none;
+        overflow: visible;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-foto-prabowo1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-img-prabowo {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-gibran {
+        align-self: stretch;
+        flex: 1 0 0px;
+        height: auto;
+        position: relative;
+        width: 1px;
+    }
+    
+    .sayid-gibran1 {
+        display: contents;
+    }
+    
+    .sayid-gibran2 {
+        border-bottom-width: 1px;
+        border-color: rgba(0, 0, 0, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: none;
+        opacity: 1;
+        height: 100%;
+        cursor: default;
+        gap: 12px;
+        padding: 10px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: hidden;
+        position: relative;
+        will-change: var(transform);
+    }
+    
+    .sayid-gibran3 {
+        opacity: 1;
+        order: 4;
+        gap: 16px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-gibran4 {
+        opacity: 1;
+        gap: 6px;
+        justify-content: flex-start;
+        max-width: unset;
+        order: 0;
+        overflow: visible;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        padding: 0;
+        position: relative;
+        width: 100%;    
+    }
+    
+    .sayid-a-gibran4 {
+        opacity: 1;
+        cursor: pointer;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a2-gibran4 {
+        opacity: 1;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    }
+    
+    .sayid-gibran4-a {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1; 
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-gibran4-h3 {
+        color: rgb(190, 30, 30);
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .sayid-gibran4-a1 {
+        opacity: 1;
+        height: 14px;
+        width: 13px;
+        flex: none;
+        position: relative;
+    }
+    
+    .sayid-nama-gibran {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        opacity: 1;
+        transform: none;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-nama-gibran1 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-cwp2 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-cwp2-gibran {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+        color: rgb(110, 110, 110);
+    }
+    
+    .sayid-from-cwp2 {
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a-from-cwp2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        cursor: unset;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+        color: rgb(131, 131, 131);
+    }
+    
+    .sayid-a-from1-cwp2 {
+        opacity: 1;
+        order: 2;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+        height: 20px;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 20px;
+    }
+    
+    .sayid-a-from2-cwp2 {
+        opacity: 1;
+        flex: none;
+        height: 14px;
+        position: relative;
+        width: 14px;
+    }
+    
+    .sayid-a-from3-cwp2 {
+        display: contents;
+    }
+    
+    .sayid-p-from-cwp2 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+        order: 1;
+    }
+    
+    .sayid-p1-from-cwp2 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-foto-gibran {
+        border-radius: 10px;
+        opacity: 1;
+        aspect-ratio: 1 / 1;
+        height: var(150px);
+        max-height: 150px;
+        max-width: 150px;
+        order: 2;
+        flex: none;
+        overflow: visible;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-foto-gibran1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-img-gibran {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-koalisi-capres2 {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: flex-start;
+        align-items: flex-start;
+        background-color: #ffffff;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column wrap;
+        gap: 32px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-koalisi1-capres2 {
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 10px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-p-koalisi-capres2 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-p1-koalisi-capres2 {
+        color: rgb(91, 94, 118);
+        font-family: "Manrope", sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .sayid-partai-koalisi-capres2 {
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 21px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-partai-koalisi1-capres2 {
+        place-content: center flex-start;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: wrap;
+        gap: 8px;
+        height: min-content;
+        overflow: visible;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-partai1-koalisi-capres2 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai1-koalisi1-capres2 {
+        display: contents;
+    }
+    
+    .sayid-partai1-koalisi2-capres2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai1-koalisi3-capres2 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai1-koalisi4-capres2 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai1-koalisi5-capres2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai2-koalisi-capres2 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai2-koalisi1-capres2 {
+        display: contents;
+    }
+    
+    .sayid-partai2-koalisi2-capres2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai2-koalisi3-capres2 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai2-koalisi4-capres2 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai2-koalisi5-capres2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai3-koalisi-capres2 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai3-koalisi1-capres2 {
+        display: contents;
+    }
+    
+    .sayid-partai3-koalisi2-capres2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai3-koalisi3-capres2 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai3-koalisi4-capres2 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai3-koalisi5-capres2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai4-koalisi-capres2 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai4-koalisi1-capres2 {
+        display: contents;
+    }
+    
+    .sayid-partai4-koalisi2-capres2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai4-koalisi3-capres2 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai4-koalisi4-capres2 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai4-koalisi5-capres2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai5-koalisi-capres2 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai5-koalisi1-capres2 {
+        display: contents;
+    }
+    
+    .sayid-partai5-koalisi2-capres2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai5-koalisi3-capres2 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai5-koalisi4-capres2 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai5-koalisi5-capres2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai6-koalisi-capres2 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai6-koalisi1-capres2 {
+        display: contents;
+    }
+    
+    .sayid-partai6-koalisi2-capres2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai6-koalisi3-capres2 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai6-koalisi4-capres2 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai6-koalisi5-capres2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai7-koalisi-capres2 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai7-koalisi1-capres2 {
+        display: contents;
+    }
+    
+    .sayid-partai7-koalisi2-capres2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai7-koalisi3-capres2 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai7-koalisi4-capres2 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai7-koalisi5-capres2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai8-koalisi-capres2 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai8-koalisi1-capres2 {
+        display: contents;
+    }
+    
+    .sayid-partai8-koalisi2-capres2 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai8-koalisi3-capres2 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai8-koalisi4-capres2 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai8-koalisi5-capres2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-ganjar {
+        align-self: stretch;
+        flex: 1 0 0px;
+        height: auto;
+        position: relative;
+        width: 1px;
+    }
+    
+    .sayid-ganjar1 {
+        display: contents;
+    }
+    
+    .sayid-ganjar2 {
+        border-bottom-width: 1px;
+        border-color: rgba(0, 0, 0, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: none;
+        opacity: 1;
+        height: 100%;
+        cursor: default;
+        gap: 12px;
+        padding: 10px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: hidden;
+        position: relative;
+        will-change: var(transform);
+    }
+    
+    .sayid-ganjar3 {
+        opacity: 1;
+        order: 4;
+        gap: 16px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-ganjar4 {
+        opacity: 1;
+        gap: 6px;
+        justify-content: flex-start;
+        max-width: unset;
+        order: 0;
+        overflow: visible;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        padding: 0;
+        position: relative;
+        width: 100%;    
+    }
+    
+    .sayid-a-ganjar4 {
+        opacity: 1;
+        cursor: pointer;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a2-ganjar4 {
+        opacity: 1;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    }
+    
+    .sayid-ganjar4-a {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1; 
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-ganjar4-h3 {
+        color: rgb(190, 30, 30);
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .sayid-ganjar4-a1 {
+        opacity: 1;
+        height: 14px;
+        width: 13px;
+        flex: none;
+        position: relative;
+    }
+    
+    .sayid-nama-ganjar {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        opacity: 1;
+        transform: none;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-nama-ganjar1 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-cp3 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-cp3-ganjar {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+        color: rgb(110, 110, 110);
+    }
+    
+    .sayid-from-cp3 {
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a-from-cp3 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        cursor: unset;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+        color: rgb(131, 131, 131);
+    }
+    
+    .sayid-a-from1-cp3 {
+        border-radius: 4px;
+        opacity: 1;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        height: 20px;
+        overflow: hidden;
+        position: relative;
+        width: 20px;
+        will-change: var(transform);
+    }
+    
+    .sayid-a-from2-cp3 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-img-from-cp3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-p-from-cp3 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-p1-from-cp3 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+        color: rgb(92, 87, 87);
+    }
+    
+    .sayid-foto-ganjar {
+        border-radius: 10px;
+        opacity: 1;
+        aspect-ratio: 1 / 1;
+        height: var(150px);
+        max-height: 150px;
+        max-width: 150px;
+        order: 2;
+        flex: none;
+        overflow: visible;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-foto-ganjar1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-img-ganjar {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-mahfud {
+        align-self: stretch;
+        flex: 1 0 0px;
+        height: auto;
+        position: relative;
+        width: 1px;
+    }
+    
+    .sayid-mahfud1 {
+        display: contents;
+    }
+    
+    .sayid-mahfud2 {
+        border-bottom-width: 1px;
+        border-color: rgba(0, 0, 0, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: none;
+        opacity: 1;
+        height: 100%;
+        cursor: default;
+        gap: 12px;
+        padding: 10px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow: hidden;
+        position: relative;
+        will-change: var(transform);
+    }
+    
+    .sayid-mahfud3 {
+        opacity: 1;
+        order: 4;
+        gap: 16px;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-mahfud4 {
+        opacity: 1;
+        gap: 6px;
+        justify-content: flex-start;
+        max-width: unset;
+        order: 0;
+        overflow: visible;
+        align-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: min-content;
+        padding: 0;
+        position: relative;
+        width: 100%;    
+    }
+    
+    .sayid-a-mahfud4 {
+        opacity: 1;
+        cursor: pointer;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a2-mahfud4 {
+        opacity: 1;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    }
+    
+    .sayid-mahfud4-a {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1; 
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-mahfud4-h3 {
+        color: rgb(190, 30, 30);
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .sayid-mahfud4-a1 {
+        opacity: 1;
+        height: 14px;
+        width: 13px;
+        flex: none;
+        position: relative;
+    }
+    
+    .sayid-nama-mahfud {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        opacity: 1;
+        transform: none;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-nama-mahfud1 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-cwp3 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre-wrap;
+        width: 100%;
+        word-break: break-word;
+        word-wrap: break-word;
+    }
+    
+    .sayid-cwp3-mahfud {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+        color: rgb(110, 110, 110);
+    }
+    
+    .sayid-from-cwp3 {
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-a-from-cwp3 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        cursor: unset;
+        gap: 2px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+        color: rgb(131, 131, 131);
+    }
+    
+    .sayid-a-from1-cwp3 {
+        opacity: 1;
+        order: 2;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 10px;
+        height: 20px;
+        justify-content: center;
+        overflow: visible;
+        padding: 0;
+        position: relative;
+        width: 20px;
+    }
+    
+    .sayid-a-from2-cwp3 {
+        opacity: 1;
+        flex: none;
+        height: 14px;
+        position: relative;
+        width: 14px;
+    }
+    
+    .sayid-a-from3-cwp3 {
+        display: contents;
+    }
+    
+    .sayid-p-from-cwp3 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        text-decoration: none;
+        transform: none;
+        opacity: 1;
+        flex: none;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+        order: 1;
+    }
+    
+    .sayid-p1-from-cwp3 {
+        font-family: "Manrope", "Manrope Placeholder", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0em;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    .sayid-foto-mahfud {
+        border-radius: 10px;
+        opacity: 1;
+        aspect-ratio: 1 / 1;
+        height: var(150px);
+        max-height: 150px;
+        max-width: 150px;
+        order: 2;
+        flex: none;
+        overflow: visible;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-foto-mahfud1 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-img-mahfud {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-koalisi-capres3 {
+        opacity: 1;
+        transform: perspective(1200px);
+        place-content: flex-start;
+        align-items: flex-start;
+        background-color: #ffffff;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column wrap;
+        gap: 32px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-koalisi1-capres3 {
+        place-content: flex-start center;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 10px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-p-koalisi-capres3 {
+        outline: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        transform: none;
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        white-space: pre;
+        width: auto;
+    }
+    
+    .sayid-p1-koalisi-capres3 {
+        color: rgb(91, 94, 118);
+        font-family: "Manrope", sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 1.4em;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .sayid-partai-koalisi-capres3 {
+        place-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: column;
+        gap: 21px;
+        height: min-content;
+        overflow: hidden;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-partai-koalisi1-capres3 {
+        place-content: center flex-start;
+        align-items: center;
+        display: flex;
+        flex: 0 0 auto;
+        flex-flow: wrap;
+        gap: 8px;
+        height: min-content;
+        overflow: visible;
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+    
+    .sayid-partai1-koalisi-capres3 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai1-koalisi1-capres3 {
+        display: contents;
+    }
+    
+    .sayid-partai1-koalisi2-capres3 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai1-koalisi3-capres3 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai1-koalisi4-capres3 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai1-koalisi5-capres3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai2-koalisi-capres3 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai2-koalisi1-capres3 {
+        display: contents;
+    }
+    
+    .sayid-partai2-koalisi2-capres3 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai2-koalisi3-capres3 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai2-koalisi4-capres3 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai2-koalisi5-capres3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai3-koalisi-capres3 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai3-koalisi1-capres3 {
+        display: contents;
+    }
+    
+    .sayid-partai3-koalisi2-capres3 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai3-koalisi3-capres3 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai3-koalisi4-capres3 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai3-koalisi5-capres3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }
+    
+    .sayid-partai4-koalisi-capres3 {
+        flex: 0 0 auto;
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+    
+    .sayid-partai4-koalisi1-capres3 {
+        display: contents;
+    }
+    
+    .sayid-partai4-koalisi2-capres3 {
+        border-bottom-width: 1px;
+        border-color: rgba(34, 34, 34, 0.08);
+        border-left-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+        border-top-width: 1px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        opacity: 1;
+        align-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+        height: min-content;
+        justify-content: flex-start;
+        max-width: 160px;
+        overflow: visible;
+        padding: 8px;
+        position: relative;
+        text-decoration: none;
+        width: min-content;
+    
+    }
+    
+    .sayid-partai4-koalisi3-capres3 {
+        border-radius: 4px;
+        opacity: 1;
+        height: 32px;
+        width: 32px;
+        overflow: hidden;
+        position: relative;
+        aspect-ratio: 1 / 1;
+        flex: none;
+        will-change: var(transform);
+    }
+    
+    .sayid-partai4-koalisi4-capres3 {
+        position: absolute;
+        border-radius: inherit;
+        inset: 0px;
+    }
+    
+    .sayid-partai4-koalisi5-capres3 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: inherit;
+        object-position: center center;
+        object-fit: cover;
+        image-rendering: auto;
+    }

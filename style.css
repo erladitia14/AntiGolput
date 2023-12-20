@@ -1,0 +1,402 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+	--indent: 50px;
+	--indent2: 100px;
+}
+
+.wrapp {
+	position: relative;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.main {
+	padding-bottom: var(--indent2);
+}
+
+._mt {
+	margin-top: var(--indent2);
+}
+
+.content {
+	width: 100%;
+	height: auto;
+  	padding: 0 50px;
+}
+
+.section {
+	height: auto;
+	padding: 30px 0;
+}
+
+.gsap_slider {
+	height: 80vh;
+}
+
+.gsap__bl {
+	width: 100%;
+}
+
+.gsap__inner {
+	display: flex;
+	width: calc(100% + var(--indent));
+	flex: 0 0 auto;
+	overflow: hidden;
+}
+
+.gsap__track {
+	display: flex;
+	flex: 0 0 auto;
+	will-change: transform;
+	transition: 3.5s cubic-bezier(.075, 1, .25, 1);
+}
+
+.gsap__item {
+	flex: 0 0 auto;
+	width: 455px;
+	height: 455px;
+	will-change: transform;
+	overflow: hidden;
+}
+
+.gsap__item img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gsap__item+.gsap__item {
+	margin-left: var(--indent);
+}
+
+.gsap_slider .content,
+.gsap_h,
+.gsap__bl,
+.gsap__inner,
+.gsap__item {
+	height: 100%;
+}
+
+.card-body {
+	opacity: 0;
+	transition: opacity 0.3s;
+	background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+}
+      
+.card:hover .card-body {
+	opacity: 1;
+}
+
+.btn-nav {
+  font-size: 13px;
+  background: transparent;
+  border: none;
+  padding: 0.5em 1em;
+  color: #161B44;
+  text-transform: uppercase;
+  position: relative;
+  transition: .5s ease;
+}
+
+.btn-nav::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #ebc17a;
+  transition: .5s ease;
+}
+
+.btn-nav:hover {
+  color: #1e1e2b;
+  transition-delay: .5s;
+}
+
+.btn-nav:hover::before {
+  width: 100%;
+}
+
+.btn-nav::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: #ebc17a;
+  transition: .4s ease;
+  z-index: -1;
+}
+
+.btn-nav:hover::after {
+  height: 100%;
+  transition-delay: 0.4s;
+  color: aliceblue;
+}
+
+.button-login {
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  border-radius: 35px;
+  align-items: center;
+  border: solid black 2px;
+  outline: none;
+}
+
+.svg {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.button-login .text {
+  z-index: 10;
+  font-size: 14px;
+}
+
+.button-login:hover .text {
+  animation: text forwards 0.3s;
+  /*color: white;*/
+}
+
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: #161B44;
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px #161B44,
+              0 0 25px #161B44,
+              0 0 50px #161B44,
+              0 0 100px #161B44;
+}
+
+@keyframes text {
+  from {
+    color: black;
+  }
+
+  to {
+    color: white;
+  }
+}
+
+.svg {
+  z-index: 6;
+}
+
+.button-login:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  opacity: 0;
+  border-radius: 300px;
+  animation: wave1 2.5s ease-in-out forwards;
+}
+
+.button-login:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 9%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  opacity: 0;
+  border-radius: 300px;
+  animation: wave2 2.5s ease-in-out forwards;
+}
+
+@keyframes wave1 {
+  0% {
+    z-index: 1;
+    background: #EB4335;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  1% {
+    z-index: 1;
+    background: #EB4335;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  25% {
+    z-index: 1;
+    background: #EB4335;
+    width: 800px;
+    height: 800px;
+    opacity: 1;
+  }
+
+  26% {
+    z-index: 3;
+    background: #34A853;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  50% {
+    z-index: 3;
+    background: #34A853;
+    width: 800px;
+    height: 800px;
+    opacity: 1;
+  }
+
+  70% {
+    z-index: 3;
+    background: #34A853;
+    width: 800px;
+    height: 800px;
+    opacity: 1;
+  }
+
+  100% {
+    z-index: 3;
+    background: #34A853;
+    width: 800px;
+    height: 800px;
+    opacity: 1;
+  }
+}
+
+@keyframes wave2 {
+  0% {
+    z-index: 2;
+    background: #FBBC05;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  11% {
+    z-index: 2;
+    background: #FBBC05;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  35% {
+    z-index: 2;
+    background: #FBBC05;
+    width: 800px;
+    height: 800px;
+    opacity: 1;
+  }
+
+  39% {
+    z-index: 2;
+    background: #FBBC05;
+    width: 800px;
+    height: 800px;
+    opacity: 1;
+  }
+
+  40% {
+    z-index: 4;
+    background: #4285F4;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  64% {
+    z-index: 4;
+    background: #4285F4;
+    width: 800px;
+    height: 800px;
+    opacity: 1;
+  }
+
+  100% {
+    z-index: 4;
+    background: #4285F4;
+    width: 800px;
+    height: 800px;
+    opacity: 1;
+  }
+}
+
+.button-login:hover .red {
+  animation: disappear 0.1s forwards;
+  animation-delay: 0.1s;
+}
+
+.button-login:hover .yellow {
+  animation: disappear 0.1s forwards;
+  animation-delay: 0.3s;
+}
+
+.button-login:hover .green {
+  animation: disappear 0.1s forwards;
+  animation-delay: 0.7s;
+}
+
+.button-login:hover .blue {
+  animation: disappear 0.1s forwards;
+  animation-delay: 1.1s;
+}
+
+@keyframes disappear {
+  from {
+    filter: brightness(1);
+  }
+
+  to {
+    filter: brightness(100);
+  }
+}
+
+@keyframes changeText {
+      0% { content: "Pemuda"; }
+      50% { content: "Pemudi"; }
+      100% { content: "Pemuda"; }
+    }
+
+    .text-animation::after {
+      content: "Pemuda";
+      animation: changeText 7s infinite;
+    }
+    
+    .blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+      }
+      
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
