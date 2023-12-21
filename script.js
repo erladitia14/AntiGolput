@@ -198,12 +198,11 @@ document.getElementById('login').addEventListener('click', () => {
   });
 });
 
-// Membatasi akses ke file lain sebelum login
 onAuthStateChanged(auth, (user) => {
   const { pathname } = window.location;
   console.log(pathname);
   if (user) {
-    if (pathname === '/index.html') window.location.pathname = '/antigolput.html';
+    if (pathname === '/index.html' || '/' ) window.location.pathname = '/antigolput.html';
   } else {
     // User is signed out
     if (pathname === '/antigolput.html') window.location.pathname = '/index.html';
