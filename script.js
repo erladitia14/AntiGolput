@@ -202,7 +202,7 @@ onAuthStateChanged(auth, (user) => {
   const { pathname } = window.location;
   console.log(pathname);
   if (user) {
-    if (pathname === '/index.html' || '/' ) window.location.pathname = '/antigolput.html';
+    if (pathname === '/index.html' || pathname === '/' ) window.location.pathname = '/antigolput.html';
   } else {
     // User is signed out
     if (pathname === '/antigolput.html') window.location.pathname = '/index.html';
